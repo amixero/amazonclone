@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box 1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("./images/logo.PNG");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border2{_
+     border:2px solid transparent;
+}
+
+.border2:hover{
+ border:2px solid white
+}
+
+/* box2 */
+
+.text-one{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 12px;
+}
+.text-two{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box 3 */
+.search-bar{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.search-bar:hover{
+    border: 2px solid orange;
+
+}
+.select-box{
+   background-color: #dddddd;
+   color: black;
+    width: 60px;
+   text-align: center;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: none;
+} 
+.input-text{
+width:100%;
+font-size: 1rem;
+border: none ;
+}
+.search-icon{
+    width: 45px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.nav-country{
+    
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.3rem;
+
+   
+}
+.select-box2{
+   background-color: #0f1111;
+    color: white;
+    border: none;
+}
+ 
+/* box5 */
+span{
+    font-size: 0.8rem;
+}
+.signin-two{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.panel-opt p{
+   display: inline;
+   margin-left: 13px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.herosection{
+    background-image: url("./images/heroimage.JPG");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color:white;
+    color:black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 20px;
+    
+}
+a{
+    color: #007185;
+}
+
+/* shopping section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(245, 231, 220);
+}
+
+.box{
+    
+    height: 270px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-image{
+    background-size: cover;
+   background-repeat: no-repeat;
+    height:200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box-content a{
+    color: #007185;
+}
+.box5{
+    margin-top: 30px;
+}
+
+
+/* practice */
+/* .boxs{
+  height: 600px;
+  width :40%;
+  background-color:white;
+  padding: 20px 0px 15px;
+  margin-left: 25px;
+  
+  
+  
+}
+.box_image{
+    height: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.car-section{
+    
+    background-color: rgb(245, 231, 220);
+    padding: 20px 0px 15px;
+    justify-content: space-evenly;
+    display: flex;
+    } */
+
+/* footer */
+    .footer{
+        margin-top: 15px;
+        
+    }
+    .footer-message p{
+        color: white;
+        font-size: 0.85rem;
+       
+
+    }
+    .footer-message{
+        background-color:#37475a;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        
+    }
+    .footer-box2{
+        height: 200px;
+        background-color: #222f3d;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 100px 40px 100px;
+    }
+    .p1{
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .p2{
+        color: #dddddd;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .footer-box3{
+        
+        background-color:#222f3d;
+        color: white;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-box3img{
+        background-image: url("./images/logo.PNG");
+        background-size: cover;
+        height: 60px;
+        width: 7%;
+        margin-right: 60px;
+    }
+    .special-box{
+        background-color: #37475a;
+        color: white;
+        border: none;
+    }
+    .footer-box3img2{
+        display: flex;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    .footer-box3img2 p{
+        margin-left: 10px;
+    }
+    .countries{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #222f3d;
+    }
+    .countries p{
+        margin-left: 10px;
+        font-size: 0.7rem;
+        padding-bottom: 30px;
+        color: white;
+    }
+    .head-div{
+        height: 80px;
+       border-top: 0.5px solid #dddddd;
+    }
+
+    /* footer final */
+  .footer-final{
+    height: 70px;
+    background-color: #0f1111;
+    padding: 10px 0px 10px;
+    color: white;
+    
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+   }
+  .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 10px;
+    }
+  .row a{
+    margin-right: 10px;
+    color: white;
+  }
+  .column a{
+    color: white;
+  }
+
